@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #18181b;
+}
+
+#titulo {
+    font-size: 2.25rem;
+	color: #edc02c;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    color: #f8fafc;
+    background-color: #262626;
+    border-radius: 8px;
+}
+
+.dados input:focus{
+    outline: none;
+}
+
+.dados input::-webkit-outer-spin-button,
+.dados input::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+#pesoUser{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3f3f46;
+    padding: 0.3rem;
+    border-radius: 3px;
+    margin-top: 3px;
+	width: 100%;
+    border: none;
+    font-size: 1.3rem;
+    color: #f8fafc;
+    padding: 0 0.5rem;
+}
+
+.dados input:focus{
+    outline: none;
+}
+
+#alturaUser{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3f3f46;
+    padding: 0.3rem;
+    border-radius: 3px;
+    margin-top: 3px;
+	width: 100%;
+	border: none;
+    font-size: 1.3rem;
+    color: #f8fafc;
+    padding: 0 0.5rem;
+}
+
+#dados{
+	margin-top: 5rem;
+}
+
+#botoes{
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calcular{
+    background-color: #edc02c;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 1rem;
+	margin-top: 1rem;
+}
+
+#resetar{
+    background-color: #edc02c;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 1rem;
+	margin-top: 1rem;
+}
+
+.texto2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#resultado{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.25rem;
+}
+
+#carinha{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+	width: 1.5rem;
+	/*margin-left: 7rem;*/
+}
+
+.hidden{
+	display: none;
+}
+
+.verde {
+    color: #a7c957;
+}
+
+.azul {
+    color: #99dbe4;
+}
+
+.vermelho {
+    color: #ee452e;
+}
